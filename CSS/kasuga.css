@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+}
+.logo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .nav-button {
+    padding: 10px 20px;
+    background-color:white;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #map {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+  }
+  .location {
+    position: absolute;
+    cursor: pointer;
+  }
+  body, h1{
+    background-color: white;
+    border: 1px solid black;
+  }
